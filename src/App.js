@@ -3,8 +3,8 @@ import { SplitFactory } from '@splitsoftware/splitio';
 
 const splitFactory = SplitFactory({
   core: {
-    authorizationKey: 'era8dq68kd1pt2eke3eo4g6h8t45eqqfnski',
-    key: 'my-key',
+    authorizationKey: 'localhost',
+    key: 'test-key',
   },
   startup: {
     readyTimeout: 1.5,
